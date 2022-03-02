@@ -66,13 +66,7 @@ function App() {
               </div>
             ))}
           </section>
-          <section>
-            <h2></h2>
-            <img
-              alt="weather-map"
-              src={`https://tile.openweathermap.org/map/precipitation_new/4/${data?.location?.lat}/${data?.location?.lon}.png?appid=db8ac7f862b8449d8e9185941211405`}
-            />
-          </section>
+          <section>{/* TODO: Add Maps  */}</section>
         </>
       )}
       {error && <div>{error}</div>}
